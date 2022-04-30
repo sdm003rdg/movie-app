@@ -1,0 +1,9 @@
+.category {
+  display: flex;
+  border: 2px solid black;
+}
+.title {
+  color: lightsteelblue;
+  font-size: 36px;
+  text-align: center;
+}

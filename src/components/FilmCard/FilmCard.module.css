@@ -1,0 +1,47 @@
+.filmCard {
+  /* потом удалить */
+  border: 5px solid black;
+  background-color: dimgrey;
+}
+
+.filmPoster {
+  position: relative;
+  aspect-ratio: 2 / 3;
+}
+
+.filmPoster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.filmRating {
+  position: absolute;
+  background-color: lawngreen;
+  color: white;
+  right: 10px;
+  width: 30px;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.filmNameRu {
+  position: relative;
+  color: beige;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+.filmNameEn {
+  position: relative;
+  color: beige;
+  font-size: 10px;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

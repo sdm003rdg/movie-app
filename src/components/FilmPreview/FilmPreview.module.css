@@ -1,0 +1,75 @@
+.filmBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filmPreview {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(189, 186, 186);
+}
+
+.year {
+  font-size: 29px;
+}
+
+.janr {
+  font-size: 23px;
+}
+
+.type {
+  font-size: 29px;
+}
+
+.filmLength {
+  font-size: 29px;
+}
+
+.ratingKinopoisk {
+  font-size: 29px;
+}
+
+.trailerBtn {
+  background: -webkit-linear-gradient(
+    319.84deg,
+    #505add 34.4%,
+    #be40c0 66.11%,
+    #fba82b 96.37%
+  );
+  background: linear-gradient(
+    130.16deg,
+    #505add 34.4%,
+    #be40c0 66.11%,
+    #fba82b 96.37%
+  );
+  width: 200px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.mon {
+  color: #505add;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+}
+.mon2 {
+  color: gray;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+}
+.namefilm {
+  color: black;
+  font-size: 35px;
+}
